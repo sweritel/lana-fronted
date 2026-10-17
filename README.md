@@ -59,6 +59,7 @@ Abre http://localhost:5173 en el navegador.
 | PUT    | /canciones/:id | Actualiza una canción     |
 | DELETE | /canciones/:id | Elimina una canción       |
 
+
 ## Estructura del frontend
 
 - `src/types/`: interfaces TypeScript
@@ -66,3 +67,7 @@ Abre http://localhost:5173 en el navegador.
 - `src/pages/`: páginas y lógica con React Query
 - `src/layouts/`: header, footer y layout general
 - `src/components/`: componentes reutilizables
+
+- ## Despliegue
+
+Desplegado en Netlify: https://lana-proyecto.netlify.app
