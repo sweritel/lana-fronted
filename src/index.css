@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Overpass+Mono:wght@400;600&display=swap');
+@import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+@theme {
+    --font-sans: 'Montserrat', sans-serif;
+    --font-mono: 'Overpass Mono', monospace;
+    --color-background: #1F2323; 
+    --color-surface: #262626;          
+    --color-surface-subtle: #2F3349;   
+    --color-foreground: #FFFFFF;       
+    --color-muted: #CBCCCE;            
+    --color-primary: #7367F0;          
+    --color-secondary: #0000EE;        
+    --color-accent: #82B440;           
+    --color-border: #545454;           
+    --color-ring: #7367F0;             
+    --color-success: #82B440;          
+    --color-warning: #D49A45;          
+    --color-danger: #B95752;           
+}
+
+@layer base {
+    body {
+        background-color: var(--color-background);
+        color: var(--color-foreground);
+        font-family: var(--font-sans);
+    }
+    p {
+        @apply mb-4;
+    }
+    p:last-child {
+        @apply mb-0;
+    }
+}
